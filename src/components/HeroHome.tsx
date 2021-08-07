@@ -36,7 +36,9 @@ function HeroHome() {
               <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Our discord bot will send you a programming Epigram every day or whenever you request it.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="bg-gradient-to-r from-indigo-400 to-blue-500 text-white font-semibold px-8 py-4 rounded-md" href="#0">
+                  <a
+                    className="bg-gradient-to-r from-indigo-400 to-blue-500 text-white font-semibold px-8 py-4 rounded-md"
+                    href="https://discord.com/api/oauth2/authorize?client_id=873300998402244660&permissions=2147503168&redirect_uri=https%3A%2F%2Fepigrams-bot.popcorn.network&response_type=code&scope=bot%20messages.read%20guilds%20guilds.join">
                     Try it
                   </a>
                 </div>
